@@ -1,0 +1,100 @@
+ul.a {
+  list-style-type: circle;
+}
+body.h2{
+	font-size:20px;
+}
+body{
+
+	background:rgb(51, 51, 51);
+	font-family:Arial, Verdana, sans-serif;
+	color:white;
+	font-size:12pt;
+	margin:0px;
+}
+h1{
+	text-align:center;
+}
+#tarolo{
+	border-left: 3px solid white; 
+	margin-left: 3px;
+	width:90%;
+	max-width:900px;
+	background-color:rgb(26, 26, 26);
+	text-align:justify;
+	margin:auto;
+	padding:0px;
+	margin-bottom: 20px;
+}
+#tartalom{
+	padding:30px;
+}
+p{
+	margin-left:15px;
+	margin-right:15px;
+}
+#elem{
+	text-align:center;
+	display:grid;
+	grid-template-columns:1fr 1fr;
+	gap:10px;
+}
+.bengali{
+	margin-top:0px;
+	width:150px;
+	float:left;
+	height:300px;
+	width:300px;
+	border-radius:10%;
+	margin-right:30px;
+	margin-bottom:20px;
+}
+.cica{
+	margin-top:0px;
+	width:150px;
+	float:right;
+	height:300px;
+	width:300px;
+	border-radius:10%;
+	margin-bottom:20px;
+}
+.szbengali{
+	text-align:center;
+	margin:auto;
+}
+.szcica{
+	text-align:center;
+	margin:auto;
+}
+table{
+	margin-left:auto;
+	margin-right:auto;
+}
+.torles{
+	clear:both;
+}	
+#menu a{
+	 width: 150px; 
+    height: 30px; 
+	display: flex; 
+	justify-content: center;  
+	align-items: center;
+	text-decoration:none;
+	background-color:orange;
+	text-align:center;
+    border-radius: 20px;
+    padding: 10px;
+    color: #ffffff;
+	margin:auto;
+}    
+#menu a:visited {
+	color: white;
+}
+
+#menu a:hover {
+	background-color: orangered;
+	color:white;
+}
+#menu a:active{
+	background-color: white;	
+}
